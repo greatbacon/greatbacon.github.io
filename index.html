@@ -2,66 +2,49 @@
 <html lang="en">
 	<head>
 		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<title>12M0D12 - The works of Hamilton Reed</title><link rel="icon" href="/favicon.png" data-svelte="svelte-1bgsl0r">
-
+		<link rel="icon" href="./favicon.png" />
+		<meta name="viewport" content="width=device-width" />
 		
-
-		<link rel="modulepreload" href="/./_app/start-71aebb0a.js">
-		<link rel="modulepreload" href="/./_app/chunks/vendor-7cb74386.js">
-		<link rel="modulepreload" href="/./_app/pages/__layout.svelte-fd74743c.js">
-		<link rel="modulepreload" href="/./_app/pages/index.svelte-8b34601e.js">
-		<link rel="modulepreload" href="/./_app/chunks/Header-069fb913.js">
-		<link rel="stylesheet" href="/./_app/assets/start-a8cd1609.css">
-		<link rel="stylesheet" href="/./_app/assets/pages/__layout.svelte-209610df.css">
-		<link rel="stylesheet" href="/./_app/assets/pages/index.svelte-9949e076.css">
-		<link rel="stylesheet" href="/./_app/assets/Header-1fa903ea.css">
-
-		<script type="module">
-			import { start } from "/./_app/start-71aebb0a.js";
-			start({
-				target: document.querySelector("#root"),
-				paths: {"base":"","assets":"/."},
-				session: {},
-				host: location.host,
-				route: true,
-				spa: false,
-				trailing_slash: "never",
-				hydrate: {
-					status: 200,
-					error: null,
-					nodes: [
-						import("/./_app/pages/__layout.svelte-fd74743c.js"),
-						import("/./_app/pages/index.svelte-8b34601e.js")
-					],
-					page: {
-						host: location.host, // TODO this is redundant
-						path: "/",
-						query: new URLSearchParams(""),
-						params: {}
-					}
-				}
-			});
-		</script>
+		<link href="./_app/immutable/assets/0.58523e68.css" rel="stylesheet">
+		<link href="./_app/immutable/assets/2.b9c1bdf1.css" rel="stylesheet">
+		<link href="./_app/immutable/assets/Header.e4da56c3.css" rel="stylesheet">
+		<link rel="modulepreload" href="./_app/immutable/entry/start.aa40b2cd.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/scheduler.e6aef61c.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/singletons.c46395d6.js">
+		<link rel="modulepreload" href="./_app/immutable/entry/app.75d25c70.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/index.9b93fb9e.js">
+		<link rel="modulepreload" href="./_app/immutable/nodes/0.9ffe8a04.js">
+		<link rel="modulepreload" href="./_app/immutable/nodes/2.dca8f950.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/each.e59479a4.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/Header.1ae61a2f.js"><title>12M0D12 - The works of Hamilton Reed</title><!-- HEAD_svelte-1bgsl0r_START --><link rel="icon" href="/favicon.png"><!-- HEAD_svelte-1bgsl0r_END -->
 	</head>
-	<body>
-		<div id="root">
+	<body data-sveltekit-preload-data="hover">
+		<div style="display: contents">   <header class="content svelte-znlk2t"><h1 id="text_header" class="svelte-znlk2t">12M0D12_</h1> <div class="links svelte-znlk2t" data-svelte-h="svelte-9iuo7c"><a href="/">HOME</a>|<a href="/blog">BLOG</a>|<a href="/code">CODE</a>|<a href="/audio">AUDIO</a>|<a href="/writing">WRITING</a>|<a href="/about">ABOUT</a></div> </header> <main class="content"><div><div class="display_quote_text svelte-1mpct6s">You never change things by fighting the existing reality. To change something, build a new model that makes the existing model obsolete.</div> <div class="display_quote_author svelte-1mpct6s">--Buckminster Fuller</div> </div> </main> 
+			
+			<script>
+				{
+					__sveltekit_1pjndb3 = {
+						base: new URL(".", location).pathname.slice(0, -1),
+						env: {}
+					};
 
+					const element = document.currentScript.parentElement;
 
+					const data = [null,null];
 
-
-<header class="content svelte-rujx51"><h1 id="text_header" class="svelte-rujx51">12M0D12_</h1>
-	<div class="links svelte-rujx51"><a href="/">HOME</a>|<a href="/blog">BLOG</a>|<a href="/code">CODE</a>|<a href="/audio">AUDIO</a>|<a href="/writing">WRITING</a>|<a href="/about">ABOUT</a></div>
-</header>
-
-<main class="content"><div><div class="display_quote_text svelte-1mpct6s">Science and everyday life cannot and should not be separated.</div>
-		<div class="display_quote_author svelte-1mpct6s">--Rosalind Franklin</div>
-	</div>
-</main>
-
-
-
-	
-</div>
+					Promise.all([
+						import("./_app/immutable/entry/start.aa40b2cd.js"),
+						import("./_app/immutable/entry/app.75d25c70.js")
+					]).then(([kit, app]) => {
+						kit.start(app, element, {
+							node_ids: [0, 2],
+							data,
+							form: null,
+							error: null
+						});
+					});
+				}
+			</script>
+		</div>
 	</body>
 </html>
