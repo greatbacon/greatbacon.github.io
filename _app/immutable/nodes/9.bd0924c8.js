@@ -1,25 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" href="../../favicon.png" />
-		<meta name="viewport" content="width=device-width" />
-		
-		<link href="../../_app/immutable/assets/0.58523e68.css" rel="stylesheet">
-		<link href="../../_app/immutable/assets/7.aa6270bb.css" rel="stylesheet">
-		<link href="../../_app/immutable/assets/Header.e4da56c3.css" rel="stylesheet">
-		<link rel="modulepreload" href="../../_app/immutable/entry/start.51e23976.js">
-		<link rel="modulepreload" href="../../_app/immutable/chunks/scheduler.c0022597.js">
-		<link rel="modulepreload" href="../../_app/immutable/chunks/singletons.cdd702ff.js">
-		<link rel="modulepreload" href="../../_app/immutable/entry/app.5e3b4ccd.js">
-		<link rel="modulepreload" href="../../_app/immutable/chunks/index.46153927.js">
-		<link rel="modulepreload" href="../../_app/immutable/nodes/0.5d7fade2.js">
-		<link rel="modulepreload" href="../../_app/immutable/nodes/9.bd0924c8.js">
-		<link rel="modulepreload" href="../../_app/immutable/chunks/blog.81a97e5b.js">
-		<link rel="modulepreload" href="../../_app/immutable/chunks/Header.ec0e8197.js"><title>12M0D12 - The works of Hamilton Reed</title><!-- HEAD_svelte-1bgsl0r_START --><link rel="icon" href="/favicon.png"><!-- HEAD_svelte-1bgsl0r_END -->
-	</head>
-	<body data-sveltekit-preload-data="hover">
-		<div style="display: contents">   <header class="content svelte-znlk2t"><h1 id="text_header" class="svelte-znlk2t">BLOG_</h1> <div class="links svelte-znlk2t" data-svelte-h="svelte-9iuo7c"><a href="/">HOME</a>|<a href="/blog">BLOG</a>|<a href="/code">CODE</a>|<a href="/audio">AUDIO</a>|<a href="/writing">WRITING</a>|<a href="/about">ABOUT</a></div> </header> <main class="content"><div class="brief svelte-bxaeqc"><div class="brief_title svelte-bxaeqc"><span class="svelte-bxaeqc">Could We Peer Produce Movies?</span></div> <div class="brief_subtitle svelte-bxaeqc"><span class="svelte-bxaeqc">A thought experiment on modern modes of production</span></div> <div class="brief_workcycle svelte-bxaeqc"><span class="svelte-bxaeqc">published 2023-08-26 </span></div></div> <div class="blog svelte-bxaeqc" data-svelte-h="svelte-psrfhq"><h2>Introduction</h2> <p>In the world of the modern internet, there exists a concept called <a href="https://en.wikipedia.org/wiki/Peer_production">peer production</a>. You’re probably already very familiar with works produced under this mode. Wikipedia
+import{n as B,e as W}from"../chunks/scheduler.c0022597.js";import{S as F,i as N,r as O,s as T,g as m,m as y,u as R,c as S,h as f,j as g,n as _,f as n,D as Y,k as w,v as U,a as q,y as i,d as J,t as K,w as Q}from"../chunks/index.46153927.js";import{b as X}from"../chunks/blog.81a97e5b.js";import{H as Z}from"../chunks/Header.ec0e8197.js";function ee(h){let e,s,a=h[0].subtitle+"",t;return{c(){e=m("div"),s=m("span"),t=y(a),this.h()},l(r){e=f(r,"DIV",{class:!0});var l=g(e);s=f(l,"SPAN",{class:!0});var A=g(s);t=_(A,a),A.forEach(n),l.forEach(n),this.h()},h(){w(s,"class","svelte-bxaeqc"),w(e,"class","brief_subtitle svelte-bxaeqc")},m(r,l){q(r,e,l),i(e,s),i(s,t)},p:W,d(r){r&&n(e)}}}function te(h){let e,s=h[0].wrapped+"",a;return{c(){e=y("to "),a=y(s)},l(t){e=_(t,"to "),a=_(t,s)},m(t,r){q(t,e,r),q(t,a,r)},p:W,d(t){t&&(n(e),n(a))}}}function oe(h){let e,s,a,t,r,l,A=h[0].title+"",x,j,E,b,c,$,L=h[0].start+"",C,P,H,v,G=`<h2>Introduction</h2> <p>In the world of the modern internet, there exists a concept called <a href="https://en.wikipedia.org/wiki/Peer_production">peer production</a>. You’re probably already very familiar with works produced under this mode. Wikipedia
 			primarily bases its content off of peer production. Likewise almost all free and open source
 			software like the Linux servers that run 90% of the internet, are also made using peer
 			production models.</p> <p>Last year though, something very interesting happened. A meme went viral on Tumblr about a
@@ -117,32 +96,4 @@
 			real truth is that automation is more likely to remove the boring, useless middlemen that have
 			given us a decade plus of boring, repetitive Marvel movies (among other things). I like to
 			think we’ll get there sooner rather than later and I’m trying to do my part to help move
-			things along. I hope, when you see an opportunity to jump aboard, you will too.</p></div> </main> 
-			
-			<script>
-				{
-					__sveltekit_1nk8p3k = {
-						base: new URL("../..", location).pathname.slice(0, -1),
-						env: {}
-					};
-
-					const element = document.currentScript.parentElement;
-
-					const data = [null,null];
-
-					Promise.all([
-						import("../../_app/immutable/entry/start.51e23976.js"),
-						import("../../_app/immutable/entry/app.5e3b4ccd.js")
-					]).then(([kit, app]) => {
-						kit.start(app, element, {
-							node_ids: [0, 9],
-							data,
-							form: null,
-							error: null
-						});
-					});
-				}
-			</script>
-		</div>
-	</body>
-</html>
+			things along. I hope, when you see an opportunity to jump aboard, you will too.</p>`,z;e=new Z({props:{title:"BLOG"}});let d=h[0].subtitle&&ee(h),u=h[0].wrapped&&te(h);return{c(){O(e.$$.fragment),s=T(),a=m("main"),t=m("div"),r=m("div"),l=m("span"),x=y(A),j=T(),d&&d.c(),E=T(),b=m("div"),c=m("span"),$=y("published "),C=y(L),P=T(),u&&u.c(),H=T(),v=m("div"),v.innerHTML=G,this.h()},l(o){R(e.$$.fragment,o),s=S(o),a=f(o,"MAIN",{class:!0});var p=g(a);t=f(p,"DIV",{class:!0});var k=g(t);r=f(k,"DIV",{class:!0});var D=g(r);l=f(D,"SPAN",{class:!0});var M=g(l);x=_(M,A),M.forEach(n),D.forEach(n),j=S(k),d&&d.l(k),E=S(k),b=f(k,"DIV",{class:!0});var V=g(b);c=f(V,"SPAN",{class:!0});var I=g(c);$=_(I,"published "),C=_(I,L),P=S(I),u&&u.l(I),I.forEach(n),V.forEach(n),k.forEach(n),H=S(p),v=f(p,"DIV",{class:!0,"data-svelte-h":!0}),Y(v)!=="svelte-psrfhq"&&(v.innerHTML=G),p.forEach(n),this.h()},h(){w(l,"class","svelte-bxaeqc"),w(r,"class","brief_title svelte-bxaeqc"),w(c,"class","svelte-bxaeqc"),w(b,"class","brief_workcycle svelte-bxaeqc"),w(t,"class","brief svelte-bxaeqc"),w(v,"class","blog svelte-bxaeqc"),w(a,"class","content")},m(o,p){U(e,o,p),q(o,s,p),q(o,a,p),i(a,t),i(t,r),i(r,l),i(l,x),i(t,j),d&&d.m(t,null),i(t,E),i(t,b),i(b,c),i(c,$),i(c,C),i(c,P),u&&u.m(c,null),i(a,H),i(a,v),z=!0},p(o,[p]){o[0].subtitle&&d.p(o,p),o[0].wrapped&&u.p(o,p)},i(o){z||(J(e.$$.fragment,o),z=!0)},o(o){K(e.$$.fragment,o),z=!1},d(o){o&&(n(s),n(a)),Q(e,o),d&&d.d(),u&&u.d()}}}function ae(h){return[X[2]]}class he extends F{constructor(e){super(),N(this,e,ae,oe,B,{})}}export{he as component};
