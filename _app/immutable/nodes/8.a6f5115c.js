@@ -1,25 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" href="../../favicon.png" />
-		<meta name="viewport" content="width=device-width" />
-		
-		<link href="../../_app/immutable/assets/0.58523e68.css" rel="stylesheet">
-		<link href="../../_app/immutable/assets/7.aa6270bb.css" rel="stylesheet">
-		<link href="../../_app/immutable/assets/Header.e4da56c3.css" rel="stylesheet">
-		<link rel="modulepreload" href="../../_app/immutable/entry/start.73829a69.js">
-		<link rel="modulepreload" href="../../_app/immutable/chunks/scheduler.c0022597.js">
-		<link rel="modulepreload" href="../../_app/immutable/chunks/singletons.c36b774f.js">
-		<link rel="modulepreload" href="../../_app/immutable/entry/app.cd95839d.js">
-		<link rel="modulepreload" href="../../_app/immutable/chunks/index.df437769.js">
-		<link rel="modulepreload" href="../../_app/immutable/nodes/0.19590113.js">
-		<link rel="modulepreload" href="../../_app/immutable/nodes/8.a6f5115c.js">
-		<link rel="modulepreload" href="../../_app/immutable/chunks/blog.81a97e5b.js">
-		<link rel="modulepreload" href="../../_app/immutable/chunks/Header.2e5949ba.js"><title>12M0D12 - The works of Hamilton Reed</title><!-- HEAD_svelte-1bgsl0r_START --><link rel="icon" href="/favicon.png"><!-- HEAD_svelte-1bgsl0r_END -->
-	</head>
-	<body data-sveltekit-preload-data="hover">
-		<div style="display: contents">   <header class="content svelte-znlk2t"><h1 id="text_header" class="svelte-znlk2t">BLOG_</h1> <div class="links svelte-znlk2t" data-svelte-h="svelte-9iuo7c"><a href="/">HOME</a>|<a href="/blog">BLOG</a>|<a href="/code">CODE</a>|<a href="/audio">AUDIO</a>|<a href="/writing">WRITING</a>|<a href="/about">ABOUT</a></div> </header> <main class="content"><div class="brief svelte-bxaeqc"><div class="brief_title svelte-bxaeqc"><span class="svelte-bxaeqc">Currency of Politics is a well-researched and informative history of money and the (non)politics that govern it.</span></div>  <div class="brief_workcycle svelte-bxaeqc"><span class="svelte-bxaeqc">published 2023-07-09 </span></div></div> <div class="blog svelte-bxaeqc" data-svelte-h="svelte-zxa2uk"><p>I think money is fascinating. A physical, malleable thing held in your hands. Taking on the
+import{n as N,e as K}from"../chunks/scheduler.c0022597.js";import{S as O,i as F,r as J,s as x,g as m,m as k,u as z,c as A,h as f,j as y,n as _,f as r,z as G,k as g,v as U,a as S,y as s,d as Q,t as R,w as X}from"../chunks/index.df437769.js";import{b as Y}from"../chunks/blog.81a97e5b.js";import{H as Z}from"../chunks/Header.2e5949ba.js";function ee(h){let e,n,o=h[0].subtitle+"",t;return{c(){e=m("div"),n=m("span"),t=k(o),this.h()},l(i){e=f(i,"DIV",{class:!0});var l=y(e);n=f(l,"SPAN",{class:!0});var I=y(n);t=_(I,o),I.forEach(r),l.forEach(r),this.h()},h(){g(n,"class","svelte-bxaeqc"),g(e,"class","brief_subtitle svelte-bxaeqc")},m(i,l){S(i,e,l),s(e,n),s(n,t)},p:K,d(i){i&&r(e)}}}function te(h){let e,n=h[0].wrapped+"",o;return{c(){e=k("to "),o=k(n)},l(t){e=_(t,"to "),o=_(t,n)},m(t,i){S(t,e,i),S(t,o,i)},p:K,d(t){t&&(r(e),r(o))}}}function ae(h){let e,n,o,t,i,l,I=h[0].title+"",T,M,$,b,p,j,D=h[0].start+"",B,P,W,w,H=`<p>I think money is fascinating. A physical, malleable thing held in your hands. Taking on the
 			form of bills &amp; coins, which themselves carry heavy artistic and symbolic representations of
 			the societies that made them. And yet here in the 21st century, the abstract nature of money
 			as a mere system of account is underlined everyday by the fact that most of our transactions
@@ -88,32 +67,4 @@
 			why money is the way it is or how we got to the modern international financial system we live
 			in, I highly recommend you <a href="https://press.princeton.edu/books/hardcover/9780691191072/the-currency-of-politics">pick this book up</a>
 			or at least take a listen to the
-			<a href="https://podtail.com/podcast/american-prestige/e46-the-currency-of-politics-ep-1-w-stefan-eich/">American Prestige interview</a> that started me on this path.</p> <p id="footnote-1">[1] I would expect nothing less from a western philosophical text.</p></div> </main> 
-			
-			<script>
-				{
-					__sveltekit_hghy1l = {
-						base: new URL("../..", location).pathname.slice(0, -1),
-						env: {}
-					};
-
-					const element = document.currentScript.parentElement;
-
-					const data = [null,null];
-
-					Promise.all([
-						import("../../_app/immutable/entry/start.73829a69.js"),
-						import("../../_app/immutable/entry/app.cd95839d.js")
-					]).then(([kit, app]) => {
-						kit.start(app, element, {
-							node_ids: [0, 8],
-							data,
-							form: null,
-							error: null
-						});
-					});
-				}
-			</script>
-		</div>
-	</body>
-</html>
+			<a href="https://podtail.com/podcast/american-prestige/e46-the-currency-of-politics-ep-1-w-stefan-eich/">American Prestige interview</a> that started me on this path.</p> <p id="footnote-1">[1] I would expect nothing less from a western philosophical text.</p>`,E;e=new Z({props:{title:"BLOG"}});let d=h[0].subtitle&&ee(h),u=h[0].wrapped&&te(h);return{c(){J(e.$$.fragment),n=x(),o=m("main"),t=m("div"),i=m("div"),l=m("span"),T=k(I),M=x(),d&&d.c(),$=x(),b=m("div"),p=m("span"),j=k("published "),B=k(D),P=x(),u&&u.c(),W=x(),w=m("div"),w.innerHTML=H,this.h()},l(a){z(e.$$.fragment,a),n=A(a),o=f(a,"MAIN",{class:!0});var c=y(o);t=f(c,"DIV",{class:!0});var v=y(t);i=f(v,"DIV",{class:!0});var V=y(i);l=f(V,"SPAN",{class:!0});var C=y(l);T=_(C,I),C.forEach(r),V.forEach(r),M=A(v),d&&d.l(v),$=A(v),b=f(v,"DIV",{class:!0});var L=y(b);p=f(L,"SPAN",{class:!0});var q=y(p);j=_(q,"published "),B=_(q,D),P=A(q),u&&u.l(q),q.forEach(r),L.forEach(r),v.forEach(r),W=A(c),w=f(c,"DIV",{class:!0,"data-svelte-h":!0}),G(w)!=="svelte-zxa2uk"&&(w.innerHTML=H),c.forEach(r),this.h()},h(){g(l,"class","svelte-bxaeqc"),g(i,"class","brief_title svelte-bxaeqc"),g(p,"class","svelte-bxaeqc"),g(b,"class","brief_workcycle svelte-bxaeqc"),g(t,"class","brief svelte-bxaeqc"),g(w,"class","blog svelte-bxaeqc"),g(o,"class","content")},m(a,c){U(e,a,c),S(a,n,c),S(a,o,c),s(o,t),s(t,i),s(i,l),s(l,T),s(t,M),d&&d.m(t,null),s(t,$),s(t,b),s(b,p),s(p,j),s(p,B),s(p,P),u&&u.m(p,null),s(o,W),s(o,w),E=!0},p(a,[c]){a[0].subtitle&&d.p(a,c),a[0].wrapped&&u.p(a,c)},i(a){E||(Q(e.$$.fragment,a),E=!0)},o(a){R(e.$$.fragment,a),E=!1},d(a){a&&(r(n),r(o)),X(e,a),d&&d.d(),u&&u.d()}}}function oe(h){return[Y[1]]}class he extends O{constructor(e){super(),F(this,e,oe,ae,N,{})}}export{he as component};
