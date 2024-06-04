@@ -1,25 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" href="../../favicon.png" />
-		<meta name="viewport" content="width=device-width" />
-		
-		<link href="../../_app/immutable/assets/0.58523e68.css" rel="stylesheet">
-		<link href="../../_app/immutable/assets/7.aa6270bb.css" rel="stylesheet">
-		<link href="../../_app/immutable/assets/Header.e4da56c3.css" rel="stylesheet">
-		<link rel="modulepreload" href="../../_app/immutable/entry/start.7280ff24.js">
-		<link rel="modulepreload" href="../../_app/immutable/chunks/scheduler.c0022597.js">
-		<link rel="modulepreload" href="../../_app/immutable/chunks/singletons.9117d0df.js">
-		<link rel="modulepreload" href="../../_app/immutable/entry/app.23fc8716.js">
-		<link rel="modulepreload" href="../../_app/immutable/chunks/index.8f12415b.js">
-		<link rel="modulepreload" href="../../_app/immutable/nodes/0.b9ec5d75.js">
-		<link rel="modulepreload" href="../../_app/immutable/nodes/7.10a3df35.js">
-		<link rel="modulepreload" href="../../_app/immutable/chunks/blog.ef4cf239.js">
-		<link rel="modulepreload" href="../../_app/immutable/chunks/Header.031c7ff0.js"><title>12M0D12 - The works of Hamilton Reed</title><!-- HEAD_svelte-1bgsl0r_START --><link rel="icon" href="/favicon.png"><!-- HEAD_svelte-1bgsl0r_END -->
-	</head>
-	<body data-sveltekit-preload-data="hover">
-		<div style="display: contents">   <header class="content svelte-znlk2t"><h1 id="text_header" class="svelte-znlk2t">BLOG_</h1> <div class="links svelte-znlk2t" data-svelte-h="svelte-9iuo7c"><a href="/">HOME</a>|<a href="/blog">BLOG</a>|<a href="/code">CODE</a>|<a href="/audio">AUDIO</a>|<a href="/writing">WRITING</a>|<a href="/about">ABOUT</a></div> </header> <main class="content"><div class="brief svelte-bxaeqc"><div class="brief_title svelte-bxaeqc"><span class="svelte-bxaeqc">The Coming Discourse Vacuum</span></div> <div class="brief_subtitle svelte-bxaeqc"><span class="svelte-bxaeqc">Food for thought in a post-Twitter world</span></div> <div class="brief_workcycle svelte-bxaeqc"><span class="svelte-bxaeqc">published 2022-11-18 </span></div></div> <div class="blog svelte-bxaeqc" data-svelte-h="svelte-1tr7mkw"><p>There is no doubt that Twitter is collapsing. Millions of bytes have flown over the last few
+import{n as O,e as F}from"../chunks/scheduler.c0022597.js";import{S as C,i as G,r as W,s as q,g as u,m as k,u as K,c as A,h as m,j as w,n as _,f as r,z as R,k as g,v as Y,a as x,y as i,d as J,t as Q,w as U}from"../chunks/index.8f12415b.js";import{b as X}from"../chunks/blog.ef4cf239.js";import{H as Z}from"../chunks/Header.031c7ff0.js";function ee(l){let e,n,o=l[0].subtitle+"",t;return{c(){e=u("div"),n=u("span"),t=k(o),this.h()},l(s){e=m(s,"DIV",{class:!0});var h=w(e);n=m(h,"SPAN",{class:!0});var I=w(n);t=_(I,o),I.forEach(r),h.forEach(r),this.h()},h(){g(n,"class","svelte-bxaeqc"),g(e,"class","brief_subtitle svelte-bxaeqc")},m(s,h){x(s,e,h),i(e,n),i(n,t)},p:F,d(s){s&&r(e)}}}function te(l){let e,n=l[0].wrapped+"",o;return{c(){e=k("to "),o=k(n)},l(t){e=_(t,"to "),o=_(t,n)},m(t,s){x(t,e,s),x(t,o,s)},p:F,d(t){t&&(r(e),r(o))}}}function ae(l){let e,n,o,t,s,h,I=l[0].title+"",S,$,M,b,d,D,H=l[0].start+"",j,L,B,v,N=`<p>There is no doubt that Twitter is collapsing. Millions of bytes have flown over the last few
 			weeks describing the chaos both on the platform and in the private domain of its offices.</p> <p>Advertisers have pulled out, poorly thought out technical decisions have been made, hastily
 			designed products have shipped, the majority of staff have either been fired or walked out the
 			door, and the new owner and CEO is publicly melting down ON the platform for all the world to
@@ -63,32 +42,4 @@
 			of this burning square, we should all take a moment to unplug, touch some grass, talk to our
 			friends and family around our kitchen tables, and take a deep breath. In that moment of quiet,
 			let’s dream about something better, before we go back to looking for something to fill the
-			vacuum.</p></div> </main> 
-			
-			<script>
-				{
-					__sveltekit_12g8fmj = {
-						base: new URL("../..", location).pathname.slice(0, -1),
-						env: {}
-					};
-
-					const element = document.currentScript.parentElement;
-
-					const data = [null,null];
-
-					Promise.all([
-						import("../../_app/immutable/entry/start.7280ff24.js"),
-						import("../../_app/immutable/entry/app.23fc8716.js")
-					]).then(([kit, app]) => {
-						kit.start(app, element, {
-							node_ids: [0, 7],
-							data,
-							form: null,
-							error: null
-						});
-					});
-				}
-			</script>
-		</div>
-	</body>
-</html>
+			vacuum.</p>`,E;e=new Z({props:{title:"BLOG"}});let f=l[0].subtitle&&ee(l),p=l[0].wrapped&&te(l);return{c(){W(e.$$.fragment),n=q(),o=u("main"),t=u("div"),s=u("div"),h=u("span"),S=k(I),$=q(),f&&f.c(),M=q(),b=u("div"),d=u("span"),D=k("published "),j=k(H),L=q(),p&&p.c(),B=q(),v=u("div"),v.innerHTML=N,this.h()},l(a){K(e.$$.fragment,a),n=A(a),o=m(a,"MAIN",{class:!0});var c=w(o);t=m(c,"DIV",{class:!0});var y=w(t);s=m(y,"DIV",{class:!0});var P=w(s);h=m(P,"SPAN",{class:!0});var V=w(h);S=_(V,I),V.forEach(r),P.forEach(r),$=A(y),f&&f.l(y),M=A(y),b=m(y,"DIV",{class:!0});var z=w(b);d=m(z,"SPAN",{class:!0});var T=w(d);D=_(T,"published "),j=_(T,H),L=A(T),p&&p.l(T),T.forEach(r),z.forEach(r),y.forEach(r),B=A(c),v=m(c,"DIV",{class:!0,"data-svelte-h":!0}),R(v)!=="svelte-1tr7mkw"&&(v.innerHTML=N),c.forEach(r),this.h()},h(){g(h,"class","svelte-bxaeqc"),g(s,"class","brief_title svelte-bxaeqc"),g(d,"class","svelte-bxaeqc"),g(b,"class","brief_workcycle svelte-bxaeqc"),g(t,"class","brief svelte-bxaeqc"),g(v,"class","blog svelte-bxaeqc"),g(o,"class","content")},m(a,c){Y(e,a,c),x(a,n,c),x(a,o,c),i(o,t),i(t,s),i(s,h),i(h,S),i(t,$),f&&f.m(t,null),i(t,M),i(t,b),i(b,d),i(d,D),i(d,j),i(d,L),p&&p.m(d,null),i(o,B),i(o,v),E=!0},p(a,[c]){a[0].subtitle&&f.p(a,c),a[0].wrapped&&p.p(a,c)},i(a){E||(J(e.$$.fragment,a),E=!0)},o(a){Q(e.$$.fragment,a),E=!1},d(a){a&&(r(n),r(o)),U(e,a),f&&f.d(),p&&p.d()}}}function oe(l){return[X[0]]}class le extends C{constructor(e){super(),G(this,e,oe,ae,O,{})}}export{le as component};
