@@ -13,8 +13,12 @@
 </style>
 <script type="text/javascript" src="vids.json">
     var mydata = JSON.parse(vids);
+    console.log(mydata);
     const randomVideo = mydata[Math.floor(Math.random() * mydata.length)];
-    document.getElementById('video').src = randomVideo;    
+    console.log(randomVideo)
+    console.log(document.getElementById('video').src)
+    document.getElementById('video').src = randomVideo;
+    console.log(document.getElementById('video').src)        
 </script>
 </head>
 <body>
