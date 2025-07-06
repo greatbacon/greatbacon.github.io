@@ -11,6 +11,11 @@
         color: black;
     }
 </style>
+<script type="text/javascript" src="vids.json">
+    var mydata = JSON.parse(vids);
+    const randomVideo = mydata[Math.floor(Math.random() * mydata.length)];
+    document.getElementById('video').src = randomVideo;    
+</script>
 </head>
 <body>
 
@@ -19,7 +24,7 @@
     <p>Groatmaxxing should be the OED Word of the Year 2027.</p>
 </div>
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/9j5J1-rbAfA?si=5b1uEGqLDJWkC_FZ&amp;start=60" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/9j5J1-rbAfA?si=5b1uEGqLDJWkC_FZ&amp;start=60" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 </body>
 </html> 
