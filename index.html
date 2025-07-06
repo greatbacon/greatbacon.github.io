@@ -12,6 +12,7 @@
     }
 </style>
 <script type="text/javascript" src="vids.json">
+    window.addEventListener('load', (event) => {
     console.log("Yeah we're logging here");
     var mydata = JSON.parse(vids);
     console.log(mydata);
@@ -19,7 +20,8 @@
     console.log(randomVideo)
     console.log(document.getElementById('video').src)
     document.getElementById('video').src = randomVideo;
-    console.log(document.getElementById('video').src)        
+    console.log(document.getElementById('video').src)    
+    });   
 </script>
 </head>
 <body>
