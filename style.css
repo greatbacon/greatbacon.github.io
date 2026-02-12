@@ -1,0 +1,13 @@
+    @font-face {
+        font-family: "BleedingCowboys";
+        src: url('Bleeding_Cowboys.ttf');
+    }
+    body {
+        background-color: black;
+        color: gold;
+        text-align: center;        
+    }
+    .header {
+        padding-bottom: 1%;
+        font-family: 'BleedingCowboys';
+    }
